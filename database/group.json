@@ -26,5 +26,19 @@
             "add": "Bienvenido a mi grupo",
             "remove": "Salir de mi grupo"
         }
+    },
+    {
+        "from": "120363042176247643@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "welcome": {
+            "status": false,
+            "add": "Bienvenido a mi grupo",
+            "remove": "Salir de mi grupo"
+        }
     }
 ]
