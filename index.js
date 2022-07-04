@@ -13,7 +13,7 @@ const { serialize, WAConnection } = Simple
 const Commands = new Collection()
 global.prefa = /^[#$+.?_&<>!/\\]/
 Commands.prefix = prefa
- 
+
 global.api = (name, path = '/', query = {}, apikeyqueryname) => (name in config.APIs ? config.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({ ...query, ...(apikeyqueryname ? { [apikeyqueryname]: config.APIs.apikey } : {}) })) : '')
 const { state, saveState } = useSingleFileAuthState(path.resolve('./database/session.json'), pino({ level: 'silent' }))
 
@@ -52,7 +52,7 @@ const connect = async () => {
     }
     const killua = new WAConnection(WASocket(connOptions))
     if (config.APIs.apikey == "YOURAPIKEY") {
-        console.log(chalk.black(chalk.bgRedBright('Apikey is not valid, please check at config.json')))
+        console.log(chalk.black(chalk.bgRedBright('Apikey no es válido, verifique en config.json')))
         process.exit();
     }
     global.Store = Store.bind(killua)
@@ -74,13 +74,13 @@ const connect = async () => {
 
         if (connection == "close") {
             let reason = new Boom(lastDisconnect?.error)?.output.statusCode
-            if (reason === DisconnectReason.badSession) { console.log(`Bad Session File, Please Delete Session and Scan Again`); killua.logout(); }
-            else if (reason === DisconnectReason.connectionClosed) { console.log("Connection closed, reconnecting...."); connect(); }
-            else if (reason === DisconnectReason.connectionLost) { console.log("Connection Lost from Server, reconnecting..."); connect(); }
-            else if (reason === DisconnectReason.connectionReplaced) { console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First"); killua.logout(); }
-            else if (reason === DisconnectReason.loggedOut) { console.log(`Device Logged Out, Please Scan Again And Run.`); process.exit(); }
-            else if (reason === DisconnectReason.restartRequired) { console.log("Restart Required, Restarting..."); connect(); }
-            else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); connect(); }
+            if (reason === DisconnectReason.badSession) { console.log(`Archivo de sesión incorrecto, elimine la sesión y vuelva a escanear`); killua.logout(); }
+            else if (reason === DisconnectReason.connectionClosed) { console.log("Conexión cerrada, volviendo a conectar...."); connect(); }
+            else if (reason === DisconnectReason.connectionLost) { console.log("Conexión perdida del servidor, reconectando..."); connect(); }
+            else if (reason === DisconnectReason.connectionReplaced) { console.log("Conexión reemplazada, otra nueva sesión abierta, cierre la sesión actual primero"); killua.logout(); }
+            else if (reason === DisconnectReason.loggedOut) { console.log(`Dispositivo cerrado, escanee nuevamente y ejecute.`); process.exit(); }
+            else if (reason === DisconnectReason.restartRequired) { console.log("Se requiere reinicio, reiniciando..."); connect(); }
+            else if (reason === DisconnectReason.timedOut) { console.log("Se agotó el tiempo de conexión, reconectando..."); connect(); }
             else killua.end(`Unknown DisconnectReason: ${reason}|${connection}`)
         }
     })
@@ -96,7 +96,7 @@ const connect = async () => {
         if (!m.message) return
         if (m.key && m.key.remoteJid == "status@broadcast") return
         if (m.key.id.startsWith("BAE5") && m.key.id.length == 16) return
-        
+
         if (config.options.autoRead) await killua.sendReadReceipt(m.key.remoteJid, m.key.participant, [m.key.id])
         require("./killua")(killua, m, Commands, chatUpdate)
     })
