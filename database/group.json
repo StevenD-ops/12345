@@ -1,0 +1,30 @@
+[
+    {
+        "from": "593963231542-1620281929@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "welcome": {
+            "status": false,
+            "add": "Bienvenido a mi grupo",
+            "remove": "Salir de mi grupo"
+        }
+    },
+    {
+        "from": "120363041781065775@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "welcome": {
+            "status": false,
+            "add": "Bienvenido a mi grupo",
+            "remove": "Salir de mi grupo"
+        }
+    }
+]
