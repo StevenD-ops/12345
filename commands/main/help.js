@@ -30,10 +30,10 @@ module.exports = {
             teks += `Send ${prefix}help seguido de un nombre de comando para obtener detalles del comando, por ejemplo:${prefix}help sticker`;
             let templateButtons = [
                 { urlButton: { displayText: "Source Code", url: "https://github.com/StevenD-ops/123.git" } },
-                { urlButton: { displayText: "Main APIs", url: "http://zenzapis.xyz" } },
-                { quickReplyButton: { displayText: "Button 1", id: "#" } },
-                { quickReplyButton: { displayText: "Button 2", id: "#" } },
-                { quickReplyButton: { displayText: "Button 3", id: "#" } },
+          //*      { urlButton: { displayText: "Main APIs", url: "http://zenzapis.xyz" } },
+                { quickReplyButton: { displayText: "Anunciate aqui", id: "#" } },
+    //*            { quickReplyButton: { displayText: "Button 2", id: "#" } },
+          //*      { quickReplyButton: { displayText: "Button 3", id: "#" } },
             ]
 
             let templateMessage = {
