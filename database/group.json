@@ -9,7 +9,7 @@
         "viewOnce": false,
         "welcome": {
             "status": false,
-            "add": "Bienvenido a mi grupo",
+            "add": "Bienvenido a mi grup3",
             "remove": "Salir de mi grupo"
         }
     },
@@ -23,7 +23,7 @@
         "viewOnce": false,
         "welcome": {
             "status": false,
-            "add": "Bienvenido a mi grupo",
+            "add": "Bienvenido a mi grup2",
             "remove": "Salir de mi grupo"
         }
     },
@@ -37,7 +37,7 @@
         "viewOnce": false,
         "welcome": {
             "status": false,
-            "add": "Bienvenido a mi grupo",
+            "add": "Bienvenido a mi grup1",
             "remove": "Salir de mi grupo"
         }
     }
