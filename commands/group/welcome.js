@@ -2,12 +2,12 @@ module.exports = {
 	name: "Welcome",
 	alias: ["welcome"],
     use: "<options>",
-	desc: "Enable or disable Welcome Features",
+	desc: "habilitar or disable Welcome Features",
     type: "group",
-    example: "%prefix%command enable or disable",
+    example: "%prefix%command habilitar or disable",
     noLimit: true,
     start: async(killua, m, { text }) => {
-        if (text === 'enable') {
+        if (text === 'habilitar') {
             if (isAntidelete === true) return m.reply('Welcome already active')
             group.addWelcome(m.from, _group)
             m.reply(`Success activated Welcome`)
@@ -17,7 +17,7 @@ module.exports = {
             m.reply(`Success deactivated Welcome`)
         } else {
             let buttons = [
-                { buttonId: `Welcome enable `, buttonText: { displayText: 'ENABLE'}, type: 1 },
+                { buttonId: `Welcome habilitar `, buttonText: { displayText: 'habilitar'}, type: 1 },
                  {buttonId: `Welcome disable `, buttonText: { displayText: 'DISABLE'}, type: 1 }
             ]
             let buttonMessage = {
