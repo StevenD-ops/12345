@@ -25,7 +25,7 @@ const addGroup = (id) => {
             viewOnce: false,
             welcome: {
                 status: false,
-                add: "Bienvenido a Bender-Bots",
+                add: "Bienvenido a Bender-Botsa",
                 remove: "Salir de mi grupo"
             },
         }
