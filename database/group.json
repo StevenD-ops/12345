@@ -8,8 +8,13 @@
         "detect": false,
         "viewOnce": false,
         "welcome": {
+<<<<<<< Updated upstream
             "status": false,
             "add": "Bienvenido a mi grup3",
+=======
+            "status": true,
+            "add": "Bienvenido a mi grupo",
+>>>>>>> Stashed changes
             "remove": "Salir de mi grupo"
         }
     },
@@ -36,8 +41,13 @@
         "detect": false,
         "viewOnce": false,
         "welcome": {
+<<<<<<< Updated upstream
             "status": false,
             "add": "Bienvenido a mi grup1",
+=======
+            "status": true,
+            "add": "Bienvenido a mi grupo",
+>>>>>>> Stashed changes
             "remove": "Salir de mi grupo"
         }
     }
