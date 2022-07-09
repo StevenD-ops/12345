@@ -40,7 +40,25 @@
         "verified": false,
         "name": "𒀗⃟҈😈҉ ꍟ꒒ ꒒ꂦꉓꂦ ꀸꍏᏉꀤꀸ𝑐༘⃟👹͢͡",
         "time": "05/07 00:30:29",
-        "limit": 7,
+        "limit": 9,
+        "balance": 0,
+        "premium": false
+    },
+    {
+        "id": "18097637064@s.whatsapp.net",
+        "verified": false,
+        "name": "Denis T🐺",
+        "time": "09/07 13:22:48",
+        "limit": 3,
+        "balance": 0,
+        "premium": false
+    },
+    {
+        "id": "584246861526@s.whatsapp.net",
+        "verified": false,
+        "name": "{®™℅}",
+        "time": "09/07 14:29:20",
+        "limit": 1,
         "balance": 0,
         "premium": false
     }

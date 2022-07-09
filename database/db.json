@@ -1,6 +1,53 @@
 {
   "sticker": {},
-  "database": {},
+  "database": {
+    "hola": {
+      "key": {
+        "remoteJid": "120363042176247643@g.us",
+        "fromMe": false,
+        "id": "DD202D165476B11BCFA62ADF36644273",
+        "participant": "18299416234@s.whatsapp.net"
+      },
+      "message": {
+        "extendedTextMessage": {
+          "text": "Addmsg hola",
+          "previewType": "NONE",
+          "contextInfo": {
+            "expiration": 604800,
+            "disappearingMode": {
+              "initiator": "CHANGED_IN_CHAT"
+            }
+          },
+          "inviteLinkGroupTypeV2": "DEFAULT"
+        }
+      },
+      "messageTimestamp": "1657351521",
+      "pushName": "Steven"
+    },
+    "hollll": {
+      "key": {
+        "remoteJid": "120363042176247643@g.us",
+        "fromMe": false,
+        "id": "EA25FA3D998E6DF854A159938764D112",
+        "participant": "18299416234@s.whatsapp.net"
+      },
+      "message": {
+        "extendedTextMessage": {
+          "text": "Addmsg hollll",
+          "previewType": "NONE",
+          "contextInfo": {
+            "expiration": 604800,
+            "disappearingMode": {
+              "initiator": "CHANGED_IN_CHAT"
+            }
+          },
+          "inviteLinkGroupTypeV2": "DEFAULT"
+        }
+      },
+      "messageTimestamp": "1657351560",
+      "pushName": "Steven"
+    }
+  },
   "chats": {
     "120363042176247643@g.us": {
       "antidelete": true
