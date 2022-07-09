@@ -2,7 +2,7 @@ module.exports = {
 	name: "antidelete",
 	alias: ["antidel"],
     use: "<options>",
-	desc: "habilitar or Deshabilitar Antidelete Features",
+	desc: "Habilitar or Deshabilitar Antidelete Features",
     type: "group",
     example: "%prefix%command habilitar or Deshabilitar",
     noLimit: true,
@@ -17,7 +17,7 @@ module.exports = {
             m.reply(`Success deactivated Antidelete`)
         } else {
             let buttons = [
-                { buttonId: `antidelete habilitar `, buttonText: { displayText: 'habilitar'}, type: 1 },
+                { buttonId: `antidelete Habilitar `, buttonText: { displayText: 'Habilitar'}, type: 1 },
                  {buttonId: `antidelete Deshabilitar `, buttonText: { displayText: 'Deshabilitar'}, type: 1 }
             ]
             let buttonMessage = {
