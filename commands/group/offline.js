@@ -2,23 +2,23 @@ module.exports = {
 	name: "offline",
 	alias: ["mute"],
     use: "<options>",
-	desc: "Enable or disable BOT for group",
+	desc: "habilitar or Deshabilitar BOT for group",
     type: "group",
-    example: "%prefix%command enable or disable",
+    example: "%prefix%command habilitar or Deshabilitar",
     noLimit: true,
     start: async(killua, m, { text, prefix, command }) => {
-        if (text === 'enable') {
+        if (text === 'habilitar') {
             if (isOffline === true) return m.reply('Mute already active')
             group.addOffline(m.from, _group)
-            m.reply(`Success BOT Offline For This Group\n\n_${prefix + command} disable For Unmute BOT_`)
-        } else if (text === 'disable') {
+            m.reply(`Success BOT Offline For This Group\n\n_${prefix + command} Deshabilitar For Unmute BOT_`)
+        } else if (text === 'Deshabilitar') {
             if (isOffline === false) return m.reply('Mute already deactive')
             group.delOffline(m.from, _group)
             m.reply(`Success BOT Online For This Group`)
         } else {
             let buttons = [
-                { buttonId: `offline enable `, buttonText: { displayText: 'ENABLE'}, type: 1 },
-                 {buttonId: `offline disable `, buttonText: { displayText: 'DISABLE'}, type: 1 }
+                { buttonId: `offline habilitar `, buttonText: { displayText: 'habilitar'}, type: 1 },
+                 {buttonId: `offline Deshabilitar `, buttonText: { displayText: 'Deshabilitar'}, type: 1 }
             ]
             let buttonMessage = {
                 text: `*⭔ Offline Status:* ${group.cekOffline(m.from, _group) ? 'Activated' : 'Deactivated'}\n\n_¡Elige habilitar o deshabilitar!!_`,

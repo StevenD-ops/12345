@@ -2,23 +2,23 @@ module.exports = {
 	name: "antidelete",
 	alias: ["antidel"],
     use: "<options>",
-	desc: "Enable or disable Antidelete Features",
+	desc: "habilitar or Deshabilitar Antidelete Features",
     type: "group",
-    example: "%prefix%command enable or disable",
+    example: "%prefix%command habilitar or Deshabilitar",
     noLimit: true,
     start: async(killua, m, { text }) => {
-        if (text === 'enable') {
+        if (text === 'habilitar') {
             if (isAntidelete === true) return m.reply('Antidelete already active')
             group.addAntidelete(m.from, _group)
             m.reply(`Success activated Antidelete`)
-        } else if (text === 'disable') {
+        } else if (text === 'Deshabilitar') {
             if (isAntidelete === false) return m.reply('Antidelete already deactive')
             group.delAntidelete(m.from, _group)
             m.reply(`Success deactivated Antidelete`)
         } else {
             let buttons = [
-                { buttonId: `antidelete enable `, buttonText: { displayText: 'ENABLE'}, type: 1 },
-                 {buttonId: `antidelete disable `, buttonText: { displayText: 'DISABLE'}, type: 1 }
+                { buttonId: `antidelete habilitar `, buttonText: { displayText: 'habilitar'}, type: 1 },
+                 {buttonId: `antidelete Deshabilitar `, buttonText: { displayText: 'Deshabilitar'}, type: 1 }
             ]
             let buttonMessage = {
                 text: `*⭔ Antidelete Status:* ${group.cekAntidelete(m.from, _group) ? 'Activated' : 'Deactivated'}\n\n_¡Elige habilitar o deshabilitar!_`,
