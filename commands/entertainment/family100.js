@@ -6,10 +6,10 @@ module.exports = {
     desc: "Entertaiment Family100",
     type: "entertainment",
     start: async(killua, m) => {
-        if (family100.hasOwnProperty(m.sender.split('@')[0])) return m.reply("Masih Ada Sesi Yang Belum Diselesaikan!")
+        if (family100.hasOwnProperty(m.sender.split('@')[0])) return m.reply("¡Todavía hay sesiones sin terminar!")
         let fetch = await fetchUrl(global.api("zenz", "/entertainment/family100", {}, "apikey"))
         let result = await fetch.result
-        killua.sendText(m.from, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal} ?\nPilih Salah Satu Dari ${result.jawaban.length} Jawaban\n\nWaktu : 30s\n`, m).then(() => {
+        killua.sendText(m.from, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal} ?\nElija uno de ${result.jawaban.length} Respuesta\n\nTiempo : 30s\n`, m).then(() => {
             family100[m.sender.split('@')[0]] = result.jawaban
             console.log("Jawaban: " + result.jawaban)
         })

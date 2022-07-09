@@ -21,7 +21,7 @@ module.exports = {
                  {buttonId: `antilink disable `, buttonText: { displayText: 'DISABLE'}, type: 1 }
             ]
             let buttonMessage = {
-                text: `*⭔ Antilink Status:* ${group.cekAntilink(m.from, _group) ? 'Activated' : 'Deactivated'}\n\n_Pilih enable atau disable!_`,
+                text: `*⭔ Antilink Status:* ${group.cekAntilink(m.from, _group) ? 'Activated' : 'Deactivated'}\n\n_P¡Elige habilitar o deshabilitar!_`,
                 footer: config.footer,
                 buttons: buttons,
                 headerType: 4

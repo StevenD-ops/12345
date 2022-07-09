@@ -31,7 +31,7 @@ module.exports = {
 				m.reply('Premium Deleted')
 			}
 		} else {
-			m.reply('Pilih add / del')
+			m.reply('Seleccione add / del')
 		}
     },
     isOwner: true

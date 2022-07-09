@@ -21,7 +21,7 @@ module.exports = {
                  {buttonId: `Welcome disable `, buttonText: { displayText: 'DISABLE'}, type: 1 }
             ]
             let buttonMessage = {
-                text: `*⭔ Welcome Status:* ${group.cekWelcome(m.from, _group) ? 'Activated' : 'Deactivated'}\n\n_Pilih enable atau disable!_`,
+                text: `*⭔ Welcome Status:* ${group.cekWelcome(m.from, _group) ? 'Activated' : 'Deactivated'}\n\n_¡Elige habilitar o deshabilitar!_`,
                 footer: config.footer,
                 buttons: buttons,
                 headerType: 4

@@ -19,7 +19,7 @@ module.exports = {
             fs.writeFileSync('./config.json', JSON.stringify(config, null, 2))
             m.reply(`AutoRead Success deactivated`)
         } else {
-            m.reply(`*⭔ AutoRead Status:* ${config.options.autoRead ? 'Activated' : 'Deactivated'}\n\n_Pilih enable atau disable!_`)
+            m.reply(`*⭔ AutoRead Status:* ${config.options.autoRead ? 'Activated' : 'Deactivated'}\n\n_¡Elige habilitar o deshabilitar!_`)
         }
     },
     isOwner: true

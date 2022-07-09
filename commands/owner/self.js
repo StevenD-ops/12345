@@ -19,7 +19,7 @@ module.exports = {
             fs.writeFileSync('./config.json', JSON.stringify(config, null, 2))
             m.reply(`BOT Now In Public Mode`)
         } else {
-            m.reply(`*⭔ Self Mode Status:* ${config.options.self ? 'Activated' : 'Deactivated'}\n\n_Pilih enable atau disable!_`)
+            m.reply(`*⭔ Self Mode Status:* ${config.options.self ? 'Activated' : 'Deactivated'}\n\n_¡Elige habilitar o deshabilitar!_`)
         }
     },
     isOwner: true

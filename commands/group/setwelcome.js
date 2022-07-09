@@ -16,13 +16,13 @@ module.exports = {
 		if (ar[0] === 'add') {
 				welcomeSet.add = reason
 				fs.writeFileSync("./database/group.json", JSON.stringify(_group, null, 4))
-				m.reply(`Welcome Add Di Ganti Menjadi :\n\n${welcomeSet.add}`)
+				m.reply(`Bienvenido Agregar Cambiado a :\n\n${welcomeSet.add}`)
 			} else if (ar[0] === 'remove') {
 				welcomeSet.remove = reason
 				fs.writeFileSync("./database/group.json", JSON.stringify(_group, null, 4))
-				m.reply(`Welcome Remove Di Ganti Menjadi :\n\n${welcomeSet.remove}`)
+				m.reply(`Bienvenido Quitar Cambiado a :\n\n${welcomeSet.remove}`)
 		} else {
-			m.reply('Pilih add / remove')
+			m.reply('Seleccione add / remove')
 		}
     },
     isGroup: true,
