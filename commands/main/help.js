@@ -28,7 +28,7 @@ module.exports = {
             I̳N̳F̳O̳R̳M̳A̳C̳I̳O̳N̳ ̳D̳E̳ ̳B̳E̳N̳D̳E̳R̳
 
             ${usedPrefix}𝒈𝒓𝒖𝒑𝒐𝒔
-            %prefix%𝒆𝒔𝒕𝒂𝒅𝒐
+            ${usedPrefix}𝒆𝒔𝒕𝒂𝒅𝒐
             ${usedPrefix}𝒊𝒏𝒇𝒐𝒃𝒐𝒕
             ${usedPrefix}𝒈𝒓𝒐𝒖𝒑𝒍𝒊𝒔𝒕
             ${usedPrefix}𝒐𝒘𝒏𝒆𝒓
