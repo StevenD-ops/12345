@@ -2,7 +2,7 @@ const { fetchUrl } = require("../../lib/Function")
 
 module.exports = {
     name: "simi",
-    alias: ["sim","simisimi"],
+    alias: ["sim","bot"],
     use: "<consulta>",
     desc: "Get Respond From Simi Simi",
     type: "entertainment",

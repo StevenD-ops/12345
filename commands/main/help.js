@@ -23,6 +23,8 @@ module.exports = {
 
 𝑺𝒊 𝒅𝒆𝒔𝒆𝒂𝒔 𝒉𝒂𝒄𝒆𝒓 𝒖𝒏 𝒔𝒕𝒊𝒄𝒌𝒆𝒓 𝒅𝒆 𝒖𝒏𝒂 𝒊𝒎𝒂𝒈𝒆𝒏/ 𝒇𝒐𝒕𝒐/𝒈𝒊𝒇 𝒔𝒐𝒍𝒐 𝒅𝒆𝒃𝒆𝒔 𝒅𝒆 𝒆𝒏𝒗𝒊𝒂𝒓 𝒐 𝒓𝒆𝒔𝒑𝒐𝒏𝒅𝒆𝒓 𝒆𝒍 𝒄𝒐𝒏𝒕𝒆𝒏𝒊𝒅𝒐 𝒆𝒍𝒆𝒈𝒊𝒅𝒐 𝒄𝒐𝒏 𝒍𝒂 𝒑𝒂𝒍𝒂𝒃𝒓𝒂 ''𝒔𝒕𝒊𝒄𝒌𝒆𝒓'' \n\n
 
+Descargas de videos y audios estan actualmente desactivadas.\n\n
+
 ┌──⭓  𝐌𝐞𝐧𝐮 𝐝𝐞 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢ó𝐧
 │
 │⭔ 𝗲𝗺𝗼𝗷𝗶  <𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮>
@@ -37,6 +39,7 @@ module.exports = {
 │⭔ smeme  <consulta>
 │
 └───────⭓
+
 ┌──⭓ Creator Menu
 │
 │⭔ botcomment  <consulta>
@@ -50,6 +53,128 @@ module.exports = {
 │
 └───────⭓
 
+┌──⭓ Entertainment Menu
+│
+│⭔ Bot  <consulta>
+│
+└───────⭓
+
+┌──⭓ Group Menu
+│
+│⭔ #antidelete  <options>
+│⭔ #antilink  <options>
+│⭔ #undefined  <tag>
+│⭔ #offline  <options>
+│⭔ #promote  <tag>
+│⭔ #react  <consulta>
+│⭔ #setppgc  <reply>
+│⭔ #setwelcome  <consulta>
+│⭔ #Welcome  <options>
+│
+└───────⭓
+
+┌──⭓ Information Menu
+│
+│⭔ #translate  <consulta>
+│
+└───────⭓
+
+┌──⭓ Main Menu
+│
+│⭔ #menu
+│⭔ #inspect  <url>
+│⭔ #premiumlist
+│⭔ #register
+│
+└───────⭓
+
+┌──⭓ Morensfw Menu
+│
+│⭔ #mnsfwimage  <consulta>
+│⭔ #mnsfwmenu  [listmenu]
+│
+└───────⭓
+
+┌──⭓ Owner Menu
+│
+│⭔ #autoread  <options>
+│⭔ #eval  <consulta>
+│⭔ #exec  <consulta>
+│⭔ #premium  <consulta>
+│⭔ #self  <options>
+│⭔ #setexif  <consulta>
+│⭔ #update
+│
+└───────⭓
+
+┌──⭓ Photoeditor Menu
+│
+│⭔ #blur  <reply>
+│⭔ #brighten  <reply>
+│⭔ #circle  <reply>
+│⭔ #comrade  <reply>
+│⭔ #contrast  <reply>
+│⭔ #gay  <reply>
+│⭔ #glass  <reply>
+│⭔ #greyscale  <reply>
+│⭔ #horny  <reply>
+│⭔ #invert  <reply>
+│⭔ #jail  <reply>
+│⭔ #passed  <reply>
+│⭔ #pixelate  <reply>
+│⭔ #scale  <reply>
+│⭔ #sepia  <reply>
+│⭔ #triggered  <reply>
+│⭔ #upscale  <reply>
+│⭔ #wasted  <reply>
+│
+└───────⭓
+
+┌──⭓ Randomanime Menu
+│
+│⭔ #animecouple
+│⭔ #animeme
+│⭔ #animemenu  [listmenu]
+│⭔ #hololive
+│⭔ #randomanime  <consulta>
+│
+└───────⭓
+
+
+┌──⭓ Randomimage Menu
+│
+│⭔ #imagemenu  [listmenu]
+│⭔ #minecraft
+│⭔ #randomimage  <consulta>
+│
+└───────⭓
+
+┌──⭓ Search Menu
+│
+│⭔ #animequotes  <consulta>
+│⭔ #bacaresep  <consulta>
+│⭔ #chordlagu  <consulta>
+│⭔ #dafont  <consulta>
+│⭔ #gimage  <consulta>
+│⭔ #jadwaltv  <consulta>
+│⭔ #linesticker  <consulta>
+│⭔ #liriklagu  <consulta>
+│⭔ #pin  <consulta>
+│⭔ #pixiv  <consulta>
+│⭔ #resep  <consulta>
+│⭔ #sfilesearch  <consulta>
+│⭔ #ssearch  <consulta>
+│⭔ #styletext  <consulta>
+│⭔ #trending  <consulta>
+│⭔ #wagroup  <consulta>
+│⭔ #wallpaper  <consulta>
+│⭔ #wamods  <consulta>
+│⭔ #xnxxsearch  <consulta>
+│⭔ #xvideosearch  <consulta>
+│⭔ #ytsearch  <consulta>
+│⭔ #zerochan  <consulta>
+│
+└───────⭓
 
 
 `
