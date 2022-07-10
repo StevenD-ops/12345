@@ -197,7 +197,7 @@ Descargas de videos y audios estan actualmente desactivadas.\n\n
             ]
 
             let templateMessage = {
-                image: { url: 'http://spanish.fansshare.com/gallery/photos/17861385/futurama-futurama/' },
+                image: { url: 'http://cdn29.us1.fansshare.com/pictures/futurama/tv-futurama-bender-hd-wallpaper-1466524665.jpg' },
                 caption: teks,
                 footer: config.footer,
                 templateButtons: templateButtons
