@@ -197,7 +197,7 @@ Descargas de videos y audios estan actualmente desactivadas.\n\n
             ]
 
             let templateMessage = {
-                image: { url: 'https://www.bing.com/images/search?view=detailV2&ccid=wurJP9jD&id=595331638853C229F7DA40BFBF436841E8CE6181&thid=OIP.wurJP9jDMivGi1eY81IQawHaFj&mediaurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FfWxy5D_9vKM%2Fhqdefault.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.c2eac93fd8c3322bc68b5798f352106b%3Frik%3DgWHO6EFoQ7%252b%252fQA%26pid%3DImgRaw%26r%3D0&exph=360&expw=480&q=bender&simid=608054656669142286&form=IRPRST&ck=D0E77FE54818B7C8FA2D044566D01A71&selectedindex=12&ajaxhist=0&ajaxserp=0&vt=2' },
+                image: { url: 'http://spanish.fansshare.com/gallery/photos/17861385/futurama-futurama/' },
                 caption: teks,
                 footer: config.footer,
                 templateButtons: templateButtons
